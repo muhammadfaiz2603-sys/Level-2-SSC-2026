@@ -40,17 +40,17 @@ df_outlet = pd.DataFrame({
 # COLUMN 1: SIDEBAR
 # -----------------------------------------------------------------------------
 with st.sidebar:
-    st.header("Dashboard Navigation")
+    st.header("SSC 2026 Dashboard")
     st.write("Select the dataset to view:")
     
     # Radio button to switch views
-    view_selection = st.radio(
+    view_selection = st.selecbox(
         "Dataset:",
         ["Regional Performance", "Outlet Performance"]
     )
     
     st.markdown("---")
-    st.info("Data source: Level 2.xlsx")
+     st.write("Switch Training Department")
 
 # -----------------------------------------------------------------------------
 # COLUMN 2: MAIN AREA
