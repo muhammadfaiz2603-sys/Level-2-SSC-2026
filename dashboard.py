@@ -50,7 +50,7 @@ with st.sidebar:
     )
     
     st.markdown("---")
-     st.write("Switch Training Department")
+    st.write("Switch Training Department")
 
 # -----------------------------------------------------------------------------
 # COLUMN 2: MAIN AREA
